@@ -1,0 +1,54 @@
+# Build directories
+build/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio
+.vs/
+*.vcxproj*
+*.sln
+*.user
+*.suo
+*.tlog
+*.lastbuildstate
+*.log
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled binaries and objects
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.dll
+*.lib
+
+# Python scripts and cache (якщо ти використовуєш plot_results.py)
+__pycache__/
+*.pyc
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# Temporary / system
+*.tmp
+*.bak
+*.old
+~$*
+
+# VS Code settings (якщо не хочеш ділитися конфігом)
+.vscode/
+
+# Output CSVs or generated data (необов'язково)
+sorted_csv/
+*.csv
+!students.csv
